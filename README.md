@@ -24,7 +24,7 @@ cd AuthorshipDetection
 ```
 
 Then run the training-test set builder from command line Python interpreter:
-```python
+```
 $ python2.7 build_test_and_training_sets.py --data-set /tmp/raw_texts --training-set /tmp/train/ --test-set /tmp/test/
 ```
 
