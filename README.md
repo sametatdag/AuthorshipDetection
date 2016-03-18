@@ -18,15 +18,19 @@ There are two .py files in the repository:
 ### How to run
 First, clone the repository:
 
-    git clone https://github.com/sametatdag/AuthorshipDetection.git
-    cd AuthorshipDetection
+```sh
+git clone https://github.com/sametatdag/AuthorshipDetection.git
+cd AuthorshipDetection
+```
+
 Then run the training-test set builder from command line Python interpreter:
 ```python
 $ python2.7 build_test_and_training_sets.py --data-set /tmp/raw_texts --training-set /tmp/train/ --test-set /tmp/test/
 ```
+
 Next, you need to run the actual recognizer, again from command line:
 ```
-$ python2.7 python recognize_and_evaluate.py --training-set /tmp/train/ --test-set /tmp/test --use-function-words True --f-words-path /tmp/fWords.txt 
+$ python2.7 recognize_and_evaluate.py --training-set /tmp/train/ --test-set /tmp/test --use-function-words True --f-words-path /tmp/fWords.txt 
 ```
 If you do not want to use the function words, you can use the parameter like this: ```--use-function-words False```.
 
