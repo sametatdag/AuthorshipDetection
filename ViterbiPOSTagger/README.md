@@ -31,11 +31,11 @@ cd CMPE561/ViterbiPOSTagger
 Then run the train_hmm_tagger from command line Python interpreter:
 for postag type:
 ```
-$ python2.7 train_hmm_tagger.py --training-filename turkish_metu_sabanci_train.conll --postag-type **postag**
+$ python2.7 train_hmm_tagger.py --training-filename turkish_metu_sabanci_train.conll --postag-type postag
 ```
 or for cpostag type:
 ```
-$ python2.7 train_hmm_tagger.py --training-filename turkish_metu_sabanci_train.conll --postag-type **cpostag**
+$ python2.7 train_hmm_tagger.py --training-filename turkish_metu_sabanci_train.conll --postag-type cpostag
 ```
 train_hmm_tagger.py will create two new files: observation_likelihoods.txt and tag_transitions.txt. These file contains the training parameters of the HMM in JSON format. Please do not delete them, these two files are required for running step 2.
 
