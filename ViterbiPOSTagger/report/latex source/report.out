@@ -1,0 +1,15 @@
+\BOOKMARK [1][-]{section*.1}{Contents}{}% 1
+\BOOKMARK [1][-]{section*.2}{Introduction}{}% 2
+\BOOKMARK [1][-]{section*.3}{Dataset}{}% 3
+\BOOKMARK [1][-]{section*.4}{Pre-processing and Tokenization}{}% 4
+\BOOKMARK [2][-]{section*.5}{Sentence Tokenization}{section*.4}% 5
+\BOOKMARK [2][-]{section*.6}{POS Tag Type}{section*.4}% 6
+\BOOKMARK [1][-]{section*.7}{HMM POS Tagger with Viterbi Decoding}{}% 7
+\BOOKMARK [2][-]{section*.8}{Training the HMM}{section*.7}% 8
+\BOOKMARK [2][-]{section*.9}{Tagging the novel data}{section*.7}% 9
+\BOOKMARK [2][-]{section*.10}{Evaluating the results}{section*.7}% 10
+\BOOKMARK [1][-]{section*.11}{Performance Evaluation}{}% 11
+\BOOKMARK [2][-]{section*.12}{Accuracy Results}{section*.11}% 12
+\BOOKMARK [1][-]{section*.13}{Comments on the Results}{}% 13
+\BOOKMARK [1][-]{section*.14}{Notes and Future Work}{}% 14
+\BOOKMARK [1][-]{section*.15}{Conclusion}{}% 15

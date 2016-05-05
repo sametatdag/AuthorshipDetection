@@ -1,0 +1,17 @@
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{section*.1}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Introduction}{1}{section*.2}
+\contentsline {section}{\numberline {II}Dataset}{1}{section*.3}
+\contentsline {section}{\numberline {III}Pre-processing and Tokenization}{1}{section*.4}
+\contentsline {subsection}{\numberline {A}Sentence Tokenization}{1}{section*.5}
+\contentsline {subsection}{\numberline {B}POS Tag Type}{1}{section*.6}
+\contentsline {section}{\numberline {IV}HMM POS Tagger with Viterbi Decoding}{1}{section*.7}
+\contentsline {subsection}{\numberline {A}Training the HMM}{1}{section*.8}
+\contentsline {subsection}{\numberline {B}Tagging the novel data}{2}{section*.9}
+\contentsline {subsection}{\numberline {C}Evaluating the results}{2}{section*.10}
+\contentsline {section}{\numberline {V}Performance Evaluation}{2}{section*.11}
+\contentsline {subsection}{\numberline {A}Accuracy Results}{2}{section*.12}
+\contentsline {section}{\numberline {VI}Comments on the Results}{3}{section*.13}
+\contentsline {section}{\numberline {VII}Notes and Future Work}{3}{section*.14}
+\contentsline {section}{\numberline {VIII}Conclusion}{3}{section*.15}
