@@ -9,7 +9,7 @@ This directory contains the 1st homework files; a Python application of Naive Ba
 This is the 2nd homework; again, a Python application to detect the POS tags of a given text. In this homework, a Viterbi decoder is implemented.
 
 * **RelationExtraction** :
-This is the 3rd homework; again, a Python application for protein-protein relationship extraction from given dataset.
+This is the 3rd homework; a Python application for protein-protein relationship extraction from given dataset.
 
 Please refer to README file of each project for running the code.
 

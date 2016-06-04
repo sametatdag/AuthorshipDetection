@@ -60,6 +60,15 @@ If you want to re-extract dependency trees, you need to run app.java. To run app
  * It will create a file including dependency parse tree features, named as dep_parsed.sentences.
 
 
+### File Paths
+If you encounter a path related problem, below is given all the variables carrying paths:
+ * app-base.py:L10 sentences_file = "dataset/dataset.sentences"
+ * app-base.py:L11 labels_file = "dataset/dataset.labels"
+
+ * app-advanded.py:L25 dep_parsed_filename = "dep_parsed.sentences"
+ * app-advanded.py:L42 sentences_file = "dataset/dataset.sentences"
+ * app-advanded.py:L43 labels_file = "dataset/dataset.labels"
+ * app-advanded.py:L44 keywords_file = "int-keywords.txt"
 
 ### Issues
 If you encounter any error, please report an issue on Github.
