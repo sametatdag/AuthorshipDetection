@@ -21,7 +21,7 @@ In this homework, given dataset is used for both training and testing. First 300
 Dataset files are included in this repository. Please put them in an appropriate place and note the path of dataset directory. 
 
 ### Description of Files
-There are 2 .py files and a .java in the repository:
+There are 2 .py files and a .java file in the repository:
 * app-base.py : This is a Python a script which trains an SVM with BoW-TFIDF approach. It does not use any extra features.
 
 * app-advanced.py : A Python script which includes 2 extra sets of features: 1. Interaction verbs as binary features, 2. Features extracted using Stanford Dependency parser. Dependency parser features are extracted using app.java and saved into "dep_parsed.sentences" file before running app-advanced.py 
@@ -49,15 +49,15 @@ $ python2.7 app-advanded.py
 
 If you want to re-extract dependency trees, you need to run app.java. To run app.java, you need to install Stanford Dependency Parser and English model as dependencies:
 
- * Create a new Java project in your Java IDE.
- * Import app.java file into your project.
- * Download [Stanford Dependency Tree parser](http://nlp.stanford.edu/software/stanford-parser-full-2015-12-09.zip)
- * Unzip stanford-parser-full-2015-12-09.zip file and add jars into your project as lib dependencies.
- * Download [English model files required for Stanford Parser](http://nlp.stanford.edu/software/stanford-english-corenlp-2016-01-10-models.jar)
- * Add models.jar into your project as lib dependencies.
- * Edit accordingly taggerPath and br paths in app.java with proper paths.
- * Run the project.
- * It will create a file including dependency parse tree features, named as dep_parsed.sentences.
+ 1. Create a new Java project in your Java IDE.
+ 2. Import app.java file into your project.
+ 3. Download [Stanford Dependency Tree parser](http://nlp.stanford.edu/software/stanford-parser-full-2015-12-09.zip)
+ 4. Unzip stanford-parser-full-2015-12-09.zip file and add jars into your project as lib dependencies.
+ 5. Download [English model files required for Stanford Parser](http://nlp.stanford.edu/software/stanford-english-corenlp-2016-01-10-models.jar)
+ 6. Add models.jar into your project as lib dependencies.
+ 7. Edit accordingly taggerPath and br paths in app.java with proper paths.
+ 8. Run the project.
+ 9. It will create a file including dependency parse tree features, named as dep_parsed.sentences.
 
 
 ### File Paths
