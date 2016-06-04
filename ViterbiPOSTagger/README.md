@@ -1,7 +1,7 @@
 # ViterbiPOSTagger
 This repository contains CMPE561 Course HW2 project. The project aims to implement a HMM Part-of-Speech Tagger with using Viterbi Decoding..
 ## Requirements
-The project is implemented in Python programming language. Python2.7 is required to run the code. (Wither Python3.x or Python2.6 cannot run the code.)
+The project is implemented in Python programming language. Python2.7 is required to run the code. (Neither Python3.x nor Python2.6 cannot run the code.)
 
 No external libraries required. 
 
